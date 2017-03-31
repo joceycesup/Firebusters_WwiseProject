@@ -5,9 +5,20 @@
 			<ChildrenList>
 				<SwitchContainer Name="Marionnette_Autohit" ID="{F4E7159E-78C8-4637-8131-46FA075FBC34}" ShortID="335661658">
 					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
 								<Value>-9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1307,8 +1318,8 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 					<GroupingInfo>
-						<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
-						<DefaultSwitchRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+						<GroupRef Name="Autohit_velocite" ID="{E63CFD14-E5AE-4BE4-8A12-1F838BB49920}"/>
+						<DefaultSwitchRef Name="Faible" ID="{4AB0490A-C34A-4DCB-8792-97FA0088E9EC}"/>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
 								<ItemRef Name="Faible" ID="{442236B2-1798-4A8F-9071-21CE03C76325}"/>
@@ -1320,6 +1331,26 @@
 								<ItemRef Name="Moyen" ID="{2A4B12E6-7FEC-454A-8B82-DF71E33E7EBC}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Faible" ID="{4AB0490A-C34A-4DCB-8792-97FA0088E9EC}"/>
+								<ItemList>
+									<ItemRef Name="Faible" ID="{442236B2-1798-4A8F-9071-21CE03C76325}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Fort" ID="{7C38F5C2-2031-4AD9-BBA0-A007C3786910}"/>
+								<ItemList>
+									<ItemRef Name="Fort" ID="{5F3036E2-B5E9-48EA-AB91-B134079EDEF2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Moyen" ID="{41AC1CED-9E60-4A2D-AD23-C1301E9DD4AC}"/>
+								<ItemList>
+									<ItemRef Name="Moyen" ID="{2A4B12E6-7FEC-454A-8B82-DF71E33E7EBC}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>
