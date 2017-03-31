@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C285DF7E-2F8D-4A20-9AFA-5FD7D08C7E40}" SchemaVersion="75">
+<WwiseDocument Type="WorkUnit" ID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}" SchemaVersion="75">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C285DF7E-2F8D-4A20-9AFA-5FD7D08C7E40}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Marionnette_Autohit" ID="{3E0B55C2-35C3-47AB-849C-019F91BA0606}">
+					<ChildrenList>
+						<Action Name="Play" ID="{61E803D2-10BE-4CA7-BEF3-634AE0B36279}" ShortID="776581497" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{65AF1521-EA3E-4964-97A8-AAC1F80545D3}" Global="false">
+									<ObjectRef Name="Marionnette_Autohit" ID="{F4E7159E-78C8-4637-8131-46FA075FBC34}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
