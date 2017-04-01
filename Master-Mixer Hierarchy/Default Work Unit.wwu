@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{F493D58A-3FE1-4C62-A13D-CCB4E07ADC18}" SchemaVersion="75">
+<WwiseDocument Type="WorkUnit" ID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}" SchemaVersion="75">
 	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{F493D58A-3FE1-4C62-A13D-CCB4E07ADC18}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{BD207930-1432-46BE-8FA7-8D89F9B5D829}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
