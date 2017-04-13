@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
+<<<<<<< HEAD
+		<ProjectRoot>W:\Firebusters\Firebusters_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>W:\Firebusters\Firebusters_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>W:\Firebusters\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>W:\Firebusters\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+=======
 		<ProjectRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\</ProjectRoot>
 		<SourceFilesRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\.cache\Mac\</SourceFilesRoot>
 		<SoundBanksRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
+>>>>>>> 4db1388929839bb350a9f3ff6db587b104f87695
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,6 +24,8 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
+<<<<<<< HEAD
+=======
 		<SoundBank Id="3161908922" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
@@ -286,5 +296,6 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+>>>>>>> 4db1388929839bb350a9f3ff6db587b104f87695
 	</SoundBanks>
 </SoundBanksInfo>
