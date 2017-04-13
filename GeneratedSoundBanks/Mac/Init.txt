@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1394615607	Autohit_velocite			\Default Work Unit\Autohit_velocite	
+
+Switch	ID	Name	Switch Group			Notes
+	487420215	Moyen	Autohit_velocite			
+	1470352910	Faible	Autohit_velocite			
+	2947616894	Fort	Autohit_velocite			
+
+>>>>>>> 4db1388929839bb350a9f3ff6db587b104f87695
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{45712D6D-AFB6-4337-996C-102578C874FE}" SchemaVersion="75">
+<WwiseDocument Type="WorkUnit" ID="{AC76B4FC-37E4-4003-999D-B6A549E280F3}" SchemaVersion="75">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{45712D6D-AFB6-4337-996C-102578C874FE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AC76B4FC-37E4-4003-999D-B6A549E280F3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Autohit_velocite" ID="{E63CFD14-E5AE-4BE4-8A12-1F838BB49920}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Faible" ID="{4AB0490A-C34A-4DCB-8792-97FA0088E9EC}"/>
+						<Switch Name="Fort" ID="{7C38F5C2-2031-4AD9-BBA0-A007C3786910}"/>
+						<Switch Name="Moyen" ID="{41AC1CED-9E60-4A2D-AD23-C1301E9DD4AC}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Velocite" ID="{71432DE0-FBFB-49C3-BC34-D1E9DE6AB83B}"/>
+						<Curve Name="" ID="{33006DEC-4D8A-432D-9CEB-EA201CB93C57}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>22.46622</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>59.96622</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
