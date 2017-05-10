@@ -6,8 +6,44 @@
 				<SoundcasterSession Name="Main" ID="{736CC827-DB36-407A-AC44-0267B19A829C}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Marionnette_Autohit" ID="{3E0B55C2-35C3-47AB-849C-019F91BA0606}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="Play_chariot_hit" ID="{7C8D4EE0-4269-4B73-A864-A362DCB35B7F}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_wood_hit" ID="{20BCF50C-23E3-424F-B371-E9656548A207}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_mailbox_hit" ID="{521FB6E0-5124-40E1-947E-11A27D257A18}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Start_Extincteur" ID="{E9E5F219-EA62-468B-AA3F-77E7AF3D43DE}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8F620E46-8ECF-4993-B2FA-48724BE9F2A9}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Extincteur" ID="{37E40682-1839-403F-8772-27900678C5B0}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Marionnette_hit_bois" ID="{0B7FED79-66FE-42A5-8F89-CE8B3F6E32BA}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Marionnette_hit_ceramique" ID="{AAD2A595-FB06-4AEB-9DD4-14EE58541332}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Marionnette_Autohit" ID="{3E0B55C2-35C3-47AB-849C-019F91BA0606}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Marionnette_hit_metal" ID="{D32CE09D-DBC0-4205-AAE7-84B611515B33}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -41,7 +77,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Velocite" ID="{71432DE0-FBFB-49C3-BC34-D1E9DE6AB83B}"/>
-							<Value>0.5</Value>
+							<Value>0.55</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
@@ -58,7 +94,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Faible" ID="{4AB0490A-C34A-4DCB-8792-97FA0088E9EC}"/>
+						<CurrentSwitchRef Name="Moyen" ID="{41AC1CED-9E60-4A2D-AD23-C1301E9DD4AC}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

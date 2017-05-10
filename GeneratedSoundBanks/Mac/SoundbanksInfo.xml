@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="120">
 	<RootPaths>
-<<<<<<< HEAD
-		<ProjectRoot>W:\Firebusters\Firebusters_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>W:\Firebusters\Firebusters_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>W:\Firebusters\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
-		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>W:\Firebusters\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
-=======
 		<ProjectRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\</ProjectRoot>
 		<SourceFilesRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\.cache\Mac\</SourceFilesRoot>
 		<SoundBanksRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>C:\Users\user\Documents\WwiseProjects\Firebusters_WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
->>>>>>> 4db1388929839bb350a9f3ff6db587b104f87695
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -24,19 +16,26 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-<<<<<<< HEAD
-=======
 		<SoundBank Id="3161908922" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="35712357" Name="Play_Marionnette_Autohit" ObjectPath="\Events\Default Work Unit\Play_Marionnette_Autohit"/>
+				<Event Id="3157003241" Name="test" ObjectPath="\Events\Default Work Unit\test"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="8914933" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-009.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-009_9E69E797.wem</Path>
+				</File>
 				<File Id="9437805" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-027.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-027_9E69E797.wem</Path>
+				</File>
+				<File Id="19112307" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-002.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-002_9E69E797.wem</Path>
 				</File>
 				<File Id="26019736" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-008.wav</ShortName>
@@ -46,6 +45,10 @@
 					<ShortName>Marionnette_autohit_Faible-005.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-005_9E69E797.wem</Path>
 				</File>
+				<File Id="27881027" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-013.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-013_9E69E797.wem</Path>
+				</File>
 				<File Id="71407522" Language="SFX">
 					<ShortName>Marionnette_autohit_Moyen-007.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-007_9E69E797.wem</Path>
@@ -53,6 +56,14 @@
 				<File Id="78435331" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-021.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-021_9E69E797.wem</Path>
+				</File>
+				<File Id="80587037" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-008.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-008_9E69E797.wem</Path>
+				</File>
+				<File Id="83011310" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-003.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-003_9E69E797.wem</Path>
 				</File>
 				<File Id="93839547" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-012.wav</ShortName>
@@ -62,13 +73,25 @@
 					<ShortName>Marionnette_autohit_Moyen.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen_9E69E797.wem</Path>
 				</File>
+				<File Id="98923291" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-004.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-004_9E69E797.wem</Path>
+				</File>
 				<File Id="116673558" Language="SFX">
 					<ShortName>Marionnette_autohit_Moyen-003.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-003_9E69E797.wem</Path>
 				</File>
+				<File Id="118965668" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-006.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-006_9E69E797.wem</Path>
+				</File>
 				<File Id="122207515" Language="SFX">
 					<ShortName>Marionnette_autohit_Moyen-010.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-010_9E69E797.wem</Path>
+				</File>
+				<File Id="131330182" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-019.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-019_9E69E797.wem</Path>
 				</File>
 				<File Id="138007897" Language="SFX">
 					<ShortName>Marionnette_autohit_Moyen-002.wav</ShortName>
@@ -78,6 +101,26 @@
 					<ShortName>Marionnette_autohit_Moyen-015.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-015_9E69E797.wem</Path>
 				</File>
+				<File Id="163549058" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-016.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-016_9E69E797.wem</Path>
+				</File>
+				<File Id="165019954" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-010.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-010_9E69E797.wem</Path>
+				</File>
+				<File Id="168078383" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-008.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-008_9E69E797.wem</Path>
+				</File>
+				<File Id="170476057" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-014.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-014_9E69E797.wem</Path>
+				</File>
+				<File Id="194198264" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-010.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-010_9E69E797.wem</Path>
+				</File>
 				<File Id="255027620" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-022.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-022_9E69E797.wem</Path>
@@ -85,6 +128,10 @@
 				<File Id="270296136" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible_9E69E797.wem</Path>
+				</File>
+				<File Id="273044825" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-002.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-002_9E69E797.wem</Path>
 				</File>
 				<File Id="280546728" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort-012.wav</ShortName>
@@ -98,9 +145,29 @@
 					<ShortName>Marionnette_autohit_Faible-017.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-017_9E69E797.wem</Path>
 				</File>
+				<File Id="302255522" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-003.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-003_9E69E797.wem</Path>
+				</File>
+				<File Id="304471860" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-012.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-012_9E69E797.wem</Path>
+				</File>
+				<File Id="316075583" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-006.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-006_9E69E797.wem</Path>
+				</File>
 				<File Id="356301370" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Fort_9E69E797.wem</Path>
+				</File>
+				<File Id="367956337" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-020.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-020_9E69E797.wem</Path>
+				</File>
+				<File Id="368081292" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-004.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-004_9E69E797.wem</Path>
 				</File>
 				<File Id="397816305" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort-004.wav</ShortName>
@@ -142,6 +209,10 @@
 					<ShortName>Marionnette_autohit_Fort-011.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Fort-011_9E69E797.wem</Path>
 				</File>
+				<File Id="498914663" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-009.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-009_9E69E797.wem</Path>
+				</File>
 				<File Id="502172760" Language="SFX">
 					<ShortName>Marionnette_autohit_Moyen-005.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-005_9E69E797.wem</Path>
@@ -149,6 +220,10 @@
 				<File Id="509833208" Language="SFX">
 					<ShortName>Marionnette_autohit_Moyen-001.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-001_9E69E797.wem</Path>
+				</File>
+				<File Id="509906838" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-005.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-005_9E69E797.wem</Path>
 				</File>
 				<File Id="535567774" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort-009.wav</ShortName>
@@ -158,13 +233,41 @@
 					<ShortName>Marionnette_autohit_Fort-015.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Fort-015_9E69E797.wem</Path>
 				</File>
+				<File Id="551825703" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-015.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-015_9E69E797.wem</Path>
+				</File>
+				<File Id="556169749" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-011.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-011_9E69E797.wem</Path>
+				</File>
+				<File Id="557937598" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-005.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-005_9E69E797.wem</Path>
+				</File>
+				<File Id="576676769" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-007.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-007_9E69E797.wem</Path>
+				</File>
 				<File Id="603148050" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort-007.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Fort-007_9E69E797.wem</Path>
 				</File>
+				<File Id="614198021" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-007.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-007_9E69E797.wem</Path>
+				</File>
+				<File Id="619199214" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-008.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-008_9E69E797.wem</Path>
+				</File>
 				<File Id="623467330" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-001.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-001_9E69E797.wem</Path>
+				</File>
+				<File Id="624801224" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-011.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-011_9E69E797.wem</Path>
 				</File>
 				<File Id="628538697" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-025.wav</ShortName>
@@ -198,13 +301,37 @@
 					<ShortName>Marionnette_autohit_Moyen-006.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-006_9E69E797.wem</Path>
 				</File>
+				<File Id="705271811" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-005.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-005_9E69E797.wem</Path>
+				</File>
+				<File Id="723271127" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-001.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-001_9E69E797.wem</Path>
+				</File>
 				<File Id="739361068" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-023.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-023_9E69E797.wem</Path>
 				</File>
+				<File Id="753928424" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-012.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-012_9E69E797.wem</Path>
+				</File>
+				<File Id="778014429" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-017.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-017_9E69E797.wem</Path>
+				</File>
 				<File Id="781474158" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-003.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-003_9E69E797.wem</Path>
+				</File>
+				<File Id="793041162" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-022.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-022_9E69E797.wem</Path>
+				</File>
+				<File Id="793808627" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-023.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-023_9E69E797.wem</Path>
 				</File>
 				<File Id="795789839" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-015.wav</ShortName>
@@ -214,9 +341,21 @@
 					<ShortName>Marionnette_autohit_Faible-014.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-014_9E69E797.wem</Path>
 				</File>
+				<File Id="802879222" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-018.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-018_9E69E797.wem</Path>
+				</File>
 				<File Id="805114412" Language="SFX">
 					<ShortName>Marionnette_autohit_Moyen-017.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-017_9E69E797.wem</Path>
+				</File>
+				<File Id="808773132" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-004.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-004_9E69E797.wem</Path>
+				</File>
+				<File Id="834487948" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-021.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-021_9E69E797.wem</Path>
 				</File>
 				<File Id="839060766" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort-001.wav</ShortName>
@@ -234,6 +373,10 @@
 					<ShortName>Marionnette_autohit_Faible-019.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-019_9E69E797.wem</Path>
 				</File>
+				<File Id="873298319" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-002.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-002_9E69E797.wem</Path>
+				</File>
 				<File Id="878101855" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort-006.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Fort-006_9E69E797.wem</Path>
@@ -241,6 +384,14 @@
 				<File Id="878124837" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-011.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-011_9E69E797.wem</Path>
+				</File>
+				<File Id="880972611" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-010.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-010_9E69E797.wem</Path>
+				</File>
+				<File Id="884751099" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-006.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-006_9E69E797.wem</Path>
 				</File>
 				<File Id="912312376" Language="SFX">
 					<ShortName>Marionnette_autohit_Fort-005.wav</ShortName>
@@ -266,9 +417,21 @@
 					<ShortName>Marionnette_autohit_Moyen-013.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-013_9E69E797.wem</Path>
 				</File>
+				<File Id="974102648" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-001.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-001_9E69E797.wem</Path>
+				</File>
 				<File Id="987995494" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-006.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-006_9E69E797.wem</Path>
+				</File>
+				<File Id="994024031" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-001.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-001_9E69E797.wem</Path>
+				</File>
+				<File Id="1003287081" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_faible-009.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_faible-009_9E69E797.wem</Path>
 				</File>
 				<File Id="1006050186" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-002.wav</ShortName>
@@ -290,12 +453,19 @@
 					<ShortName>Marionnette_autohit_Moyen-004.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Moyen-004_9E69E797.wem</Path>
 				</File>
+				<File Id="1071113909" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_fort-007.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_fort-007_9E69E797.wem</Path>
+				</File>
+				<File Id="1073055006" Language="SFX">
+					<ShortName>marionnette_autohit_layer2_moyen-003.wav</ShortName>
+					<Path>SFX\marionnette_autohit_layer2_moyen-003_9E69E797.wem</Path>
+				</File>
 				<File Id="1073536686" Language="SFX">
 					<ShortName>Marionnette_autohit_Faible-007.wav</ShortName>
 					<Path>SFX\Marionnette_autohit_Faible-007_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
->>>>>>> 4db1388929839bb350a9f3ff6db587b104f87695
 	</SoundBanks>
 </SoundBanksInfo>
