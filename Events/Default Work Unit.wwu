@@ -14,17 +14,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="test" ID="{233BEC4C-8BC5-403C-9C20-6539584BFEE3}">
-					<ChildrenList>
-						<Action Name="Play" ID="{3C0622FE-5392-495A-BA5D-66DB2E077160}" ShortID="108052068" Type="Play" Scope="One" Global="false">
-							<ElementList>
-								<Element ID="{AAD72A66-E29C-4881-8501-C6B11DF6FF03}" Global="false">
-									<ObjectRef Name="Faible" ID="{442236B2-1798-4A8F-9071-21CE03C76325}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
-								</Element>
-							</ElementList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Start_Extincteur" ID="{E9E5F219-EA62-468B-AA3F-77E7AF3D43DE}">
 					<ChildrenList>
 						<Action Name="Play" ID="{0F74EAFE-D482-46D2-B756-8F77B8332AF7}" ShortID="1015928838" Type="Play" Scope="One" Global="false">
@@ -137,6 +126,42 @@
 							<ElementList>
 								<Element ID="{29026E1C-9E3C-4E30-B180-676EFE7DBC2B}" Global="false">
 									<ObjectRef Name="Fire" ID="{70BBA7E7-CDDC-4B7F-B6BE-29CE489F20D5}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P1_IsMarius" ID="{4ABE3A7B-8016-46EA-9879-F239C4AD2FB6}">
+					<ChildrenList>
+						<Action Name="Set Game Parameter" ID="{A0597E4E-BB40-4195-8AC2-82E6F92EE7B7}" ShortID="561080581" Type="SetGameParameter" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3028362D-D3B3-460F-ADDB-D1CED39D05B2}" Global="false">
+									<ObjectRef Name="PlayerSelectionPanning" ID="{CDBBB8B4-8902-49D3-8388-E041B179AB69}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="P1_IsLouis" ID="{7D5D19D4-2DA8-4970-8B28-B4681C358E29}">
+					<ChildrenList>
+						<Action Name="Set Game Parameter" ID="{2D4DB7CC-E3C0-45B3-9852-C05D7635C001}" ShortID="427523600" Type="SetGameParameter" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{006869CA-F78D-4574-B4A1-BD2832A0D01D}" Global="false">
+									<ObjectRef Name="PlayerSelectionPanning" ID="{CDBBB8B4-8902-49D3-8388-E041B179AB69}" WorkUnitID="{80C02A0D-86FD-4D44-99A7-7F353D0FA1D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Marionnette_hit_casserole" ID="{8BC6523A-97FC-472E-9C2B-D2CEF886D0DE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{107EF0A8-8240-4AC6-A4A5-CE476466C06E}" ShortID="866303341" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A203D5EA-F14E-4AEB-9A3A-3F271C575123}" Global="false">
+									<ObjectRef Name="Marionnette_hit_casserole" ID="{AC7739DC-C1F4-48DC-A959-DCA5E427BA64}" WorkUnitID="{F056D13A-CB36-464F-8C73-A3E904DF2FC9}"/>
 								</Element>
 							</ElementList>
 						</Action>

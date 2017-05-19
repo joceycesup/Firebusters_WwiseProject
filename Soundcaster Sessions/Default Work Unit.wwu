@@ -22,12 +22,20 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Music" ID="{8F620E46-8ECF-4993-B2FA-48724BE9F2A9}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<ObjectRef Name="P1_IsMarius" ID="{4ABE3A7B-8016-46EA-9879-F239C4AD2FB6}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{8F620E46-8ECF-4993-B2FA-48724BE9F2A9}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_Extincteur" ID="{37E40682-1839-403F-8772-27900678C5B0}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="P1_IsLouis" ID="{7D5D19D4-2DA8-4970-8B28-B4681C358E29}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Marionnette_hit_bois" ID="{0B7FED79-66FE-42A5-8F89-CE8B3F6E32BA}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
@@ -44,6 +52,10 @@
 						<Module>
 							<ObjectRef Name="Play_Marionnette_hit_metal" ID="{D32CE09D-DBC0-4205-AAE7-84B611515B33}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
 							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Marionnette_hit_casserole" ID="{8BC6523A-97FC-472E-9C2B-D2CEF886D0DE}" WorkUnitID="{B92F1223-43F5-49CA-A647-7E96BC46EE39}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -80,8 +92,16 @@
 							<Value>0.55</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="PlayerSelectionPanning" ID="{CDBBB8B4-8902-49D3-8388-E041B179AB69}"/>
+							<Value>1.16824541296477E-315</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
 							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Fire_Count" ID="{1EA6E065-1FA0-4CA7-B25D-D7E8FA2F6D7C}"/>
+							<Value>10</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
