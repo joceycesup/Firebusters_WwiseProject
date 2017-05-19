@@ -262,6 +262,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="hache_mailbox" ID="{CACE4E31-9AE2-4831-A054-A4D940627B85}" ShortID="441986935">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.99597058823529E-02"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.176964411764706"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>hache_mailbox.wav</AudioFile>
 										</AudioFileSource>
@@ -281,6 +286,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="hache_mailbox-001" ID="{5A3422F2-175B-4607-B350-E712F601B8E4}" ShortID="354431394">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.85030065359477E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.52245751633987E-02"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>hache_mailbox-001.wav</AudioFile>
 										</AudioFileSource>
@@ -300,6 +309,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="hache_mailbox-002" ID="{EE5CA624-0C9B-423C-BAFB-D5D059932179}" ShortID="68496772">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.41880555555555E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.64203594771242E-02"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>hache_mailbox-002.wav</AudioFile>
 										</AudioFileSource>
